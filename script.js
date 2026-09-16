@@ -54,7 +54,7 @@ function loadNextPhoto() {
             : "";
 
         photoCount.textContent = loadedPhotos +
-            (loadedPhotos === 1 ? " photograph" : " photographs");
+            (loadedPhotos === 1 ? " छायाचित्र" : " छायाचित्र");
     };
 
     img.src = imagePath;
