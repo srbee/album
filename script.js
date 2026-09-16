@@ -54,7 +54,7 @@ function loadNextPhoto() {
             : "";
 
         photoCount.textContent = loadedPhotos +
-            (loadedPhotos === 1 ? " छायाचित्र" : " छायाचित्र");
+            (loadedPhotos === 1 ? " छायाचित्र लोड हो रहे है" : " छायाचित्र लोड हो रहे है");
     };
 
     img.src = imagePath;
